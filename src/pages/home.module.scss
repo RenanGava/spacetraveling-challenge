@@ -1,1 +1,58 @@
-// TODO
+.container{
+  max-width: 1120px;
+  margin: 1rem auto 0;
+  background: var(--background);
+
+  div{
+    cursor: pointer;
+    margin: 1rem 1rem;
+    max-width: 700px;
+    padding: 0.5rem;
+    border-radius: 2px;
+    a div{
+      h1{
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      p{
+        font-weight: 400;
+        font-size: 1.125rem;
+        margin: 0.5rem 0;
+        color: var(--body);
+      }
+
+      time, span{
+        color: var(--info);
+        margin-right: 2rem;
+        font-size: 0.875rem;
+
+      }
+    }
+
+    & + div{
+      margin-top: 2rem;
+    }
+
+    &:hover{
+      background-color: #434750;
+    }
+  }
+
+  button.morePosts{
+    background: none;
+    border: 0;
+    max-width: 200px;
+    margin-left: 2rem;
+    color: var(--highlight);
+    font-weight: 700;
+    font-size: 1.125rem;
+    transition: 0.2s;
+
+    &:hover{
+      color: var(--body);
+      background: transparent;
+    }
+  }
+}

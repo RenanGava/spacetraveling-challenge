@@ -1,1 +1,15 @@
-// TODO
+.container{
+  width: 100%;
+
+  div{
+    max-width: 1120px;
+    margin: 5rem auto 0;
+    height: 5rem;
+    div{
+      margin: 0 3rem;
+      a > img{
+        margin-bottom: 3rem;
+      }
+    }
+  }
+}
